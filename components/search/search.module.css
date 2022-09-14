@@ -1,0 +1,6 @@
+.searchContainer {
+    background-color: #f7f3f4;
+    height: calc(100vh - 106px);
+    padding: 0px 80px;
+    display: flex;
+}
