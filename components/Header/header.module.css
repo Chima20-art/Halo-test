@@ -1,5 +1,6 @@
 .header {
     display: flex;
+
     align-items: center;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
@@ -10,14 +11,15 @@
 .menuItems {
     display: flex;
     flex-direction: row;
-
     justify-content: space-between;
-    min-width: 550px;
+
+    min-width: 550px !important;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
 }
+
 .applyButton {
     width: 145px;
     height: 48px;
@@ -26,4 +28,23 @@
     background-color: white;
     box-shadow: 0px 30px 40px rgba(240, 101, 126, 0.05);
     border-radius: 40px;
+}
+.menu {
+    display: none;
+}
+@media (max-width: 800px) {
+    .header {
+        padding-bottom: 15px;
+        padding-top: 22px;
+    }
+    .menuItems {
+        display: none;
+    }
+    .applyButton {
+        display: none;
+    }
+    .menu {
+        cursor: pointer;
+        display: flex;
+    }
 }
