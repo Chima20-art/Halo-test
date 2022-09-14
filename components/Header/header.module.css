@@ -1,4 +1,29 @@
 .header {
-    background-color: red;
-    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 4px solid #222433;
+    padding-bottom: 28px;
+    padding-top: 32px;
+}
+.menuItems {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    min-width: 550px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+.applyButton {
+    width: 145px;
+    height: 48px;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    box-shadow: 0px 30px 40px rgba(240, 101, 126, 0.05);
+    border-radius: 40px;
 }
