@@ -1,12 +1,15 @@
+.headerContainer {
+    background-color: #f7f3f4;
+}
 .header {
     display: flex;
-
     align-items: center;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
     border-bottom: 4px solid #222433;
-    padding-bottom: 28px;
-    padding-top: 32px;
+    padding: 28px 0px 26px 0px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 .menuItems {
     display: flex;
