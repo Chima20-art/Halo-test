@@ -1,0 +1,63 @@
+.teamDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 192px auto;
+    background-color: red;
+    max-width: 1200px;
+}
+.titleDiv {
+    background-color: blueviolet;
+    width: 352px;
+    height: 136px;
+    text-align: center;
+}
+.title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.subTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+.imageDiv {
+    width: 100%;
+    height: 380px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+.img1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    object-fit: contain;
+    background-color: aqua;
+}
+.img2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: contain;
+    background-color: red;
+}
+.img3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    object-fit: contain;
+    background-color: blue;
+}
+.vector1 {
+    position: relative;
+    left: 50%;
+    width: 378px;
+    height: 205px;
+}
