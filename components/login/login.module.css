@@ -1,7 +1,7 @@
 .loginContainer {
     background-color: #ffbd9e;
     padding: 104px;
-    max-width: 1220px;
+    max-width: 1120px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -10,7 +10,6 @@
 }
 
 .loginText {
-    background-color: blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +17,6 @@
 }
 .title {
     font-family: 'Poppins';
-    background-color: #ffbd9e;
     max-width: 389px;
     font-style: normal;
     font-weight: 700;
