@@ -13,6 +13,8 @@ export default function Login() {
                 </p>
             </div>
             <div className={styles.loginForm}>
+                <img src="/redVector.png" className={styles.redVector} />
+                <img src="/purpleVector.png" className={styles.purpleVector} />
                 <h1 className={styles.loginTitle}>Log In </h1>
                 <input className={styles.input} placeholder="name" />
                 <input className={styles.input} placeholder="email" />
