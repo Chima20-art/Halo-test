@@ -16,8 +16,8 @@ export default function Login() {
                 <img src="/redVector.png" className={styles.redVector} />
                 <img src="/purpleVector.png" className={styles.purpleVector} />
                 <h1 className={styles.loginTitle}>Log In </h1>
-                <input className={styles.input} placeholder="name" />
-                <input className={styles.input} placeholder="email" />
+                <input className={styles.input1} placeholder="name" />
+                <input className={styles.input2} placeholder="email" />
                 <button className={styles.loginButton}> Book a demo</button>
             </div>
         </div>
