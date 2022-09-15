@@ -1,13 +1,15 @@
+.teamContainer {
+    padding: 192px 0px;
+}
 .teamDiv {
+    padding: 0px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 192px auto;
-    background-color: red;
+    margin: auto;
     max-width: 1200px;
 }
 .titleDiv {
-    background-color: blueviolet;
     width: 352px;
     height: 136px;
     text-align: center;
@@ -30,7 +32,6 @@
 .imageDiv {
     width: 100%;
     height: 380px;
-    background-color: bisque;
     display: flex;
     justify-content: space-between;
 }
@@ -39,25 +40,68 @@
     flex-direction: column;
     justify-content: flex-start;
     object-fit: contain;
-    background-color: aqua;
 }
 .img2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     object-fit: contain;
-    background-color: red;
 }
 .img3 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     object-fit: contain;
-    background-color: blue;
 }
 .vector1 {
     position: relative;
     left: 50%;
     width: 378px;
     height: 205px;
+}
+
+@media (max-width: 600px) {
+    .titleDiv {
+        width: 288px;
+        height: 103px;
+
+        margin-bottom: 40px;
+    }
+    .title {
+        font-size: 28px;
+        line-height: 42px;
+        margin-bottom: 8px;
+    }
+    .subTitle {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .imageDiv {
+        width: 100%;
+        height: fit-content;
+
+        flex-direction: column;
+    }
+    .img1 {
+        object-fit: contain;
+        width: 200px !important;
+        height: 170px !important;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-self: flex-start;
+    }
+    .img2 {
+        object-fit: contain;
+        width: 200px !important;
+        height: 170px !important ;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-self: flex-end;
+    }
+    .img3 {
+        width: 200px !important;
+        height: 170px !important;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
 }
