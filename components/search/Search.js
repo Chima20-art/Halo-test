@@ -6,7 +6,9 @@ import styles from '../search/search.module.css'
 export default function Search() {
     return (
         <div className={styles.searchContainer}>
-            <Header />
+            <div className={styles.headerDiv}>
+                <Header />
+            </div>
             <div className={styles.content}>
                 <div className={styles.contactForm}>
                     <img
