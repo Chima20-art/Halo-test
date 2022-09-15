@@ -13,14 +13,40 @@ export default function Team() {
                     </div>
                 </div>
                 <div className={styles.imageDiv}>
-                    <div className={styles.img1}>
-                        <img src="/img1.png" alt="djknv" />
+                    <div className={styles.line1}>
+                        <img
+                            className={styles.lineOne}
+                            src="/Vector1.png"
+                            alt="line"
+                        />
+                    </div>
+                    <div className={styles.line2}>
+                        <img
+                            className={styles.lineTwo}
+                            src="/Vector2.png"
+                            alt="line"
+                        />
+                    </div>
+                    <div className={styles.imgOneContainer}>
+                        <img
+                            className={styles.imgOne}
+                            src="/img1.png"
+                            alt="djknv"
+                        />
                     </div>
                     <div className={styles.img2}>
-                        <img src="/img2.png" alt="djknv" />
+                        <img
+                            className={styles.imgTwo}
+                            src="/img2.png"
+                            alt="djknv"
+                        />
                     </div>
                     <div className={styles.img3}>
-                        <img src="/img3.png" alt="djknv" />
+                        <img
+                            className={styles.imgThree}
+                            src="/img3.png"
+                            alt="djknv"
+                        />
                     </div>
                 </div>
             </div>

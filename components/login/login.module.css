@@ -85,7 +85,7 @@
 
 @media (max-width: 600px) {
     .loginContainer {
-        padding: 42px 18px;
+        padding: 42px 18px 56px 18px;
         width: 100%;
         flex-direction: column;
     }

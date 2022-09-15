@@ -34,8 +34,21 @@
     height: 380px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
-.img1 {
+.line1 {
+    position: absolute;
+    top: 10%;
+    left: 18%;
+    z-index: -1;
+}
+.line2 {
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+    z-index: -1;
+}
+.imgOneContainer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -85,26 +98,48 @@
 
         flex-direction: column;
     }
-    .img1 {
-        object-fit: contain;
-        width: 200px !important;
-        height: 170px !important;
+
+    .imgOneContainer {
         flex-direction: row;
         justify-content: flex-start;
         align-self: flex-start;
+        width: 3vw !important ;
+    }
+    .imgOne {
+        width: 53vw;
     }
     .img2 {
-        object-fit: contain;
-        width: 200px !important;
-        height: 170px !important ;
         flex-direction: row;
         justify-content: flex-start;
         align-self: flex-end;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .imgTwo {
+        width: 56vw;
     }
     .img3 {
-        width: 200px !important;
-        height: 170px !important;
         flex-direction: row;
         justify-content: flex-start;
+    }
+    .imgThree {
+        width: 46vw;
+    }
+    .line1 {
+        transform: rotate(45deg);
+        top: 25%;
+        right: -35%;
+    }
+    .lineOne {
+        width: 63vw;
+    }
+    .line2 {
+        bottom: 30%;
+        right: 25%;
+
+        transform: rotate(130deg);
+    }
+    .lineTwo {
+        width: 63vw;
     }
 }
