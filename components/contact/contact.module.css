@@ -1,0 +1,9 @@
+.contactContainer {
+    background-color: #ffbd9e;
+
+    max-width: 1120px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-b;
+}
