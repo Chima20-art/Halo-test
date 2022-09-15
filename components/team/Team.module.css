@@ -61,6 +61,9 @@
 }
 
 @media (max-width: 600px) {
+    .teamContainer {
+        padding: 102px 0px;
+    }
     .titleDiv {
         width: 288px;
         height: 103px;
