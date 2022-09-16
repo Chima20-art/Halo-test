@@ -25,10 +25,15 @@
     font-size: 20px;
     line-height: 32px;
 }
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
 
 .imagesContainer {
     display: flex;
     justify-content: space-between;
+    width: 137px;
 }
 .image {
     cursor: pointer;
@@ -42,6 +47,31 @@
 .containerDiv1,
 .containerDiv2 {
     flex: 1;
+}
+.containerDiv1 {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.div1 {
+    width: 221px;
+}
+.div2 {
+    width: 137px;
+}
+.div3 {
+    display: flex;
+    flex-direction: row;
+}
+.containerDiv2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    text-align: flex-end;
+    align-items: flex-end;
 }
 
 @media (max-width: 600px) {
@@ -75,11 +105,24 @@
         flex: 1;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
+    }
+    .containerDiv1 {
+        justify-items: flex-start;
+        justify-content: flex-start;
+    }
+    .div1 {
+        width: 221px;
+    }
+    .div3 {
+        flex-direction: column;
     }
 
     .imagesContainer {
-        width: 124px;
         justify-content: space-between;
+        width: 124px;
+    }
+    .wrap {
+        flex-direction: row;
     }
 }
