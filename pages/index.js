@@ -7,6 +7,7 @@ import styles from '../styles/Home.module.css'
 import Login from '../components/login/login'
 import Contact from '../components/contact/contact'
 import Slider from '../components/slider/slider'
+import Footer from '../components/footer/footer'
 export default function Home() {
     return (
         <div className={styles.container}>
@@ -15,6 +16,7 @@ export default function Home() {
             <Login />
             <Contact />
             <Slider />
+            <Footer />
         </div>
     )
 }

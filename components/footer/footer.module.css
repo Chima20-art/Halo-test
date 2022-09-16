@@ -1,0 +1,35 @@
+.footerContainer {
+    font-family: 'Poppins';
+    font-style: normal;
+    width: 100vw;
+    height: 336px;
+    padding: 96px 160px;
+    display: flex;
+    justify-content: space-between;
+    color: #333333;
+}
+.bigTitle {
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+}
+.description {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+}
+.smallTitle {
+    margin-bottom: 37px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.imagesContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.image {
+    cursor: pointer;
+}
