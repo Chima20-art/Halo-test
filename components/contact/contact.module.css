@@ -1,9 +1,83 @@
 .contactContainer {
-    background-color: #ffbd9e;
-
     max-width: 1120px;
-    margin: 100px auto;
+    margin: 192px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-b;
+    display: flex;
+}
+.contactText {
+    flex: 1;
+}
+.contactQuestions {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 56px;
+    max-width: 423px;
+}
+.contactButton {
+    width: 166px;
+    height: 48px;
+    background: #f2726c;
+    border-radius: 30px;
+    color: white;
+    border: 0;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.question {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.questionDiv {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px solid #1e1a20;
+}
+.questionTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    max-width: 436px;
+}
+.plusIcon {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.paragraph {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 436px;
+    margin-top: 16px;
+
+    margin-bottom: 34px;
+
+    color: #1e1a20;
 }
