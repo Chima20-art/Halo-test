@@ -98,7 +98,9 @@
         font-size: 15px;
         line-height: 175%;
     }
-
+    .contactText {
+        width: calc(100vw - 36px);
+    }
     .contactButton {
         width: 166px;
         height: 48px;
@@ -108,7 +110,7 @@
         min-height: 280px;
     }
     .questionDiv {
-        max-width: 339px;
+        width: calc(100vw - 36px);
     }
     .plusIcon {
         width: 40px;
