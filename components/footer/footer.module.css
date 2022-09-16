@@ -33,3 +33,53 @@
 .image {
     cursor: pointer;
 }
+.horizontalDiv {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+}
+.containerDiv,
+.containerDiv1,
+.containerDiv2 {
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .footerContainer {
+        padding: 42px 30px;
+        flex-direction: column;
+    }
+    .containerDiv {
+        margin-bottom: 15px;
+    }
+    .bigTitle {
+        font-size: 28px;
+        line-height: 48px;
+        margin-bottom: 0px;
+    }
+    .smallTitle {
+        font-size: 18px;
+        line-height: 32px;
+        width: 124px;
+        margin-bottom: 15px;
+    }
+    .horizontalDiv {
+        display: flex;
+        flex-direction: row;
+    }
+    .description {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .containerDiv2 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .imagesContainer {
+        width: 124px;
+        justify-content: space-between;
+    }
+}

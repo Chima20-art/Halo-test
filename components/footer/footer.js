@@ -11,18 +11,23 @@ export default function Footer() {
                 <p className={styles.description}>2019 Rootz Foundation.</p>
                 <p className={styles.description}> All rights reserved</p>
             </div>
-            <div className={styles.containerDiv}>
-                <p className={styles.smallTitle}> Headerquarters</p>
-                <p className={styles.description}>1234 Taliban </p>
-                <p className={styles.description}> Los Angeles,La 1234567</p>
-                <p className={styles.description}>(123) 456-7890</p>
-            </div>
-            <div className={styles.containerDiv}>
-                <p className={styles.smallTitle}> social media</p>
-                <div className={styles.imagesContainer}>
-                    <img src="/Facebook.png" className={styles.image} />
-                    <img src="/LinkedIn.png" className={styles.image} />
-                    <img src="/Twitter.png" className={styles.image} />
+            <div className={styles.horizontalDiv}>
+                <div className={styles.containerDiv1}>
+                    <p className={styles.smallTitle}> Headerquarters</p>
+                    <p className={styles.description}>1234 Taliban </p>
+                    <p className={styles.description}>
+                        {' '}
+                        Los Angeles,La 1234567
+                    </p>
+                    <p className={styles.description}>(123) 456-7890</p>
+                </div>
+                <div className={styles.containerDiv2}>
+                    <p className={styles.smallTitle}> social media</p>
+                    <div className={styles.imagesContainer}>
+                        <img src="/Facebook.png" className={styles.image} />
+                        <img src="/LinkedIn.png" className={styles.image} />
+                        <img src="/Twitter.png" className={styles.image} />
+                    </div>
                 </div>
             </div>
         </div>
