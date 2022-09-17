@@ -11,7 +11,9 @@ import Footer from '../components/footer/footer'
 export default function Home() {
     return (
         <div className={styles.container}>
-            <Search />
+            {/*
+             <Search />
+            */}
             <Team />
             <Login />
             <Contact />

@@ -140,14 +140,11 @@
     }
 
     .line1 {
-        overflow: hidden !important;
-        transform: rotate(10deg);
-        top: 15%;
-        left: 30%;
-        width: 40vw;
+        transform: rotate(50deg);
+        top: 10%;
+        right: 20%;
     }
     .lineOne {
-        overflow: hidden !important;
     }
     .imgTwo {
         width: 56vw;
@@ -163,14 +160,14 @@
         max-width: 95vw;
     }
     .imgTwo {
-        width: 35vw;
+        width: 45vw;
     }
     .line1 {
-        overflow: hidden;
         transform: rotate(30deg);
         top: 15%;
-        left: 25%;
-        width: 20vw;
+        right: 15%;
+    }
+    .lineOne {
     }
     .teamContainer {
         padding: 102px 0px;
@@ -222,10 +219,6 @@
         width: 36vw;
     }
 
-    .lineOne {
-        width: 63vw;
-        overflow: hidden;
-    }
     .line2 {
         bottom: 20%;
         right: 15%;

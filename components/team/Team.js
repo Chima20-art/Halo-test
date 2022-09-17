@@ -15,7 +15,7 @@ export default function Team() {
                     <div className={styles.line1}>
                         <img
                             className={styles.lineOne}
-                            src="/mobileVector1.png"
+                            src="/Vector1.png"
                             alt="line"
                         />
                     </div>
