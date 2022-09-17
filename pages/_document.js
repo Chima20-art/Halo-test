@@ -25,6 +25,18 @@ export default function Document() {
                     type="text/css"
                     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
                 />
+                <title>Rootz</title>
+                <meta property="og:title" content="Rootz" />
+                <meta
+                    property="og:description"
+                    content="Rootz a Halo lab Task."
+                />
+                <meta name="description" content="Rootz a Halo lab Task." />
+
+                <meta
+                    property="og:image"
+                    content="https://halo-test.vercel.app/parrot.png"
+                />
             </Head>
             <body>
                 <Main />
