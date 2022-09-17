@@ -88,6 +88,16 @@
 
     color: #1e1a20;
 }
+@media (max-width: 1000px) {
+    .contactContainer {
+        max-width: 80vw;
+    }
+    .text {
+        font-size: 15px;
+        line-height: 175%;
+        max-width: 80%;
+    }
+}
 
 @media (max-width: 600px) {
     .contactContainer {

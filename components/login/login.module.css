@@ -87,7 +87,7 @@
     right: -16px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .loginContainer {
         padding: 42px 18px 56px 18px;
         width: 100%;
@@ -95,7 +95,6 @@
     }
     .title {
         max-width: 288px;
-
         font-size: 28px;
         line-height: 150%;
         margin-bottom: 20px;
@@ -136,5 +135,23 @@
     .loginButton {
         width: 291px;
         height: 48px;
+    }
+}
+@media (max-width: 1000px) {
+    .loginContainer {
+        padding: 104px;
+        width: 80vw;
+        flex-direction: column;
+    }
+    .title {
+        max-width: 389px;
+    }
+    .text {
+        max-width: 389px;
+    }
+    .loginForm {
+        width: 422px;
+        margin: auto;
+        margin-top: 55px;
     }
 }
