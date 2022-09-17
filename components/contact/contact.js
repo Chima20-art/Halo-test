@@ -2,17 +2,20 @@ import React, { useState } from 'react'
 import styles from './contact.module.css'
 
 export default function Contact() {
-    const [openAnswer, setOpenAnswer] = useState(true)
+    const [openedAnswer, setOpenedAnswer] = useState(0)
     var questions = [
         {
+            id: 1,
             question: 'What can I do to protect our planet?',
             answer: ' Not to make an open fire in nature and to clean up litter; not to pollute open water bodies; to switch to alternative energy sources; to reduce the use of non-renewable resources ',
         },
         {
+            id: 2,
             question: 'How to save nature ecology?',
             answer: ' Not to make an open fire in nature and to clean up litter; not to pollute open water bodies; to switch to alternative energy sources; to reduce the use of non-renewable resources ',
         },
         {
+            id: 3,
             question: 'What is nature conservation?',
             answer: ' Not to make an open fire in nature and to clean up litter; not to pollute open water bodies; to switch to alternative energy sources; to reduce the use of non-renewable resources ',
         },
@@ -33,23 +36,29 @@ export default function Contact() {
             <div className={styles.contactQuestions}>
                 {questions.map((item) => {
                     return (
-                        <div className={styles.questionDiv}>
+                        <div key={item.id} className={styles.questionDiv}>
                             <div className={styles.question}>
                                 <div className={styles.questionTitle}>
                                     {item.question}
                                 </div>
                                 <div
                                     className={styles.plusIcon}
-                                    onClick={() => setOpenAnswer(!openAnswer)}
+                                    onClick={() =>
+                                        setOpenedAnswer(
+                                            openedAnswer == item.id
+                                                ? 0
+                                                : item.id
+                                        )
+                                    }
                                 >
-                                    {openAnswer ? (
+                                    {openedAnswer != item.id ? (
                                         <img src="/plusButton.svg" />
                                     ) : (
                                         <img src="/minusButton.svg" />
                                     )}
                                 </div>
                             </div>
-                            {!openAnswer && (
+                            {openedAnswer == item.id && (
                                 <div className={styles.paragraph}>
                                     {item.answer}
                                 </div>
