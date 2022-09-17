@@ -8,7 +8,6 @@ export default function Team() {
                 <div className={styles.titleDiv}>
                     <div className={styles.title}>Our Top Team</div>
                     <div className={styles.subTitle}>
-                        {' '}
                         Learn more about how you can save our planet's nature.{' '}
                     </div>
                 </div>
@@ -16,7 +15,7 @@ export default function Team() {
                     <div className={styles.line1}>
                         <img
                             className={styles.lineOne}
-                            src="/Vector1.png"
+                            src="/mobileVector1.png"
                             alt="line"
                         />
                     </div>

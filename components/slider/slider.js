@@ -49,6 +49,7 @@ export default function SliderReact(props) {
         centerPadding: 0,
         slidesToShow: 3,
         dots: false,
+        arrows: false,
         beforeChange: (oldIndex, newIndex) => {
             setCurrentIndex(newIndex)
         },

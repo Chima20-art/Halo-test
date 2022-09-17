@@ -75,8 +75,13 @@
 
 @media (max-width: 600px) {
     .teamContainer {
-        padding: 102px 0px;
+        padding: 20px 20px;
     }
+    .teamDiv {
+        margin: 0px;
+        max-width: 98vw;
+    }
+
     .titleDiv {
         width: 288px;
         height: 103px;
@@ -93,7 +98,7 @@
         line-height: 26px;
     }
     .imageDiv {
-        width: 100%;
+        width: 90vw;
         height: fit-content;
 
         flex-direction: column;
@@ -124,9 +129,6 @@
         width: 46vw;
     }
 
-    .lineOne {
-        width: 63vw;
-    }
     .line2 {
         bottom: 30%;
         right: 25%;
@@ -138,9 +140,14 @@
     }
 
     .line1 {
-        transform: rotate(45deg);
-        top: 25%;
-        right: -35%;
+        overflow: hidden !important;
+        transform: rotate(10deg);
+        top: 15%;
+        left: 30%;
+        width: 40vw;
+    }
+    .lineOne {
+        overflow: hidden !important;
     }
     .imgTwo {
         width: 56vw;
@@ -159,15 +166,17 @@
         width: 35vw;
     }
     .line1 {
+        overflow: hidden;
         transform: rotate(30deg);
         top: 15%;
         left: 25%;
+        width: 20vw;
     }
     .teamContainer {
         padding: 102px 0px;
     }
     .titleDiv {
-        width: 288px;
+        max-width: 288px;
         height: 103px;
 
         margin-bottom: 40px;
@@ -215,6 +224,7 @@
 
     .lineOne {
         width: 63vw;
+        overflow: hidden;
     }
     .line2 {
         bottom: 20%;

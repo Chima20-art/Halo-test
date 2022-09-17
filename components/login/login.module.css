@@ -71,6 +71,10 @@
     font-weight: 700;
     width: 291px;
     height: 48px;
+    cursor: pointer;
+}
+.loginButton:hover {
+    opacity: 0.9;
 }
 .redVector {
     position: absolute;

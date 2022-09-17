@@ -58,6 +58,13 @@
 .menuItem:hover {
     font-weight: 700;
 }
+.logo {
+    transition: transform 0.7s ease-in-out;
+}
+.logo:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+}
 
 @media (max-width: 800px) {
     .header {

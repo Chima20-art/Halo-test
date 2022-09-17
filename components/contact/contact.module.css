@@ -3,6 +3,7 @@
     padding: 0px 10px;
     max-width: 1120px;
     margin: 192px auto;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -44,6 +45,10 @@
     font-weight: 700;
     font-size: 13px;
     line-height: 140%;
+    cursor: pointer;
+}
+.contactButton:hover {
+    opacity: 0.9;
 }
 .question {
     display: flex;
@@ -87,7 +92,7 @@
 @media (max-width: 600px) {
     .contactContainer {
         width: 100vw;
-        margin: 100px 18px;
+        padding: 100px 18px;
         flex-direction: column;
         justify-content: space-between;
     }
