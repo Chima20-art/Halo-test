@@ -115,9 +115,7 @@
         margin-bottom: 40px;
         margin-top: 40px;
     }
-    .imgTwo {
-        width: 56vw;
-    }
+
     .img3 {
         flex-direction: row;
         justify-content: flex-start;
@@ -125,11 +123,7 @@
     .imgThree {
         width: 46vw;
     }
-    .line1 {
-        transform: rotate(45deg);
-        top: 25%;
-        right: -35%;
-    }
+
     .lineOne {
         width: 63vw;
     }
@@ -138,6 +132,95 @@
         right: 25%;
 
         transform: rotate(130deg);
+    }
+    .lineTwo {
+        width: 63vw;
+    }
+
+    .line1 {
+        transform: rotate(45deg);
+        top: 25%;
+        right: -35%;
+    }
+    .imgTwo {
+        width: 56vw;
+    }
+}
+@media (min-width: 600px) and (max-width: 1000px) {
+    .teamDiv {
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        max-width: 95vw;
+    }
+    .imgTwo {
+        width: 35vw;
+    }
+    .line1 {
+        transform: rotate(30deg);
+        top: 15%;
+        left: 25%;
+    }
+    .teamContainer {
+        padding: 102px 0px;
+    }
+    .titleDiv {
+        width: 288px;
+        height: 103px;
+
+        margin-bottom: 40px;
+    }
+    .title {
+        font-size: 28px;
+        line-height: 42px;
+        margin-bottom: 8px;
+    }
+    .subTitle {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .imageDiv {
+        width: 100%;
+        height: fit-content;
+
+        flex-direction: column;
+    }
+
+    .imgOneContainer {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-self: flex-start;
+        width: 3vw !important ;
+    }
+    .imgOne {
+        width: 53vw;
+    }
+    .img2 {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-self: flex-end;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .img3 {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .imgThree {
+        width: 36vw;
+    }
+
+    .lineOne {
+        width: 63vw;
+    }
+    .line2 {
+        bottom: 20%;
+        right: 15%;
+
+        transform: rotate(150deg);
     }
     .lineTwo {
         width: 63vw;

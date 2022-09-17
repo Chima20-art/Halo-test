@@ -1,5 +1,6 @@
 .contactContainer {
     font-family: 'Poppins';
+    padding: 0px 10px;
     max-width: 1120px;
     margin: 192px auto;
     display: flex;
@@ -79,6 +80,7 @@
     line-height: 24px;
     max-width: 436px;
     margin-top: 16px;
+
     color: #1e1a20;
 }
 

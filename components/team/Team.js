@@ -6,7 +6,7 @@ export default function Team() {
         <div className={styles.teamContainer}>
             <div className={styles.teamDiv}>
                 <div className={styles.titleDiv}>
-                    <div className={styles.title}>Our team</div>
+                    <div className={styles.title}>Our Top Team</div>
                     <div className={styles.subTitle}>
                         {' '}
                         Learn more about how you can save our planet's nature.{' '}
