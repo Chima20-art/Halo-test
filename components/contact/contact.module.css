@@ -51,6 +51,7 @@
 }
 .questionDiv {
     flex: 1;
+    padding: 35px 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,7 +79,6 @@
     line-height: 24px;
     max-width: 436px;
     margin-top: 16px;
-    margin-bottom: 34px;
     color: #1e1a20;
 }
 
@@ -110,6 +110,7 @@
         min-height: 280px;
     }
     .questionDiv {
+        padding: 32px 1px;
         width: calc(100vw - 36px);
     }
     .plusIcon {
