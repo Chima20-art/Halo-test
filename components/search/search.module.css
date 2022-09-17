@@ -89,6 +89,10 @@
     right: 0;
     color: white;
 }
+.searchButton:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
 
 @media (max-width: 800px) {
     .searchContainer {

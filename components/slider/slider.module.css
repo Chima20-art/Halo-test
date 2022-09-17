@@ -1,5 +1,47 @@
-.sliderContainer {
-    background-color: #ffbd9e;
+.container {
     width: 100vw;
-    height: 655px;
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 80px 0px;
+}
+
+.slider {
+    background-color: green;
+}
+
+.sliderItem {
+    background-color: orange;
+    text-align: center;
+    margin: auto;
+}
+
+.sliderSelectedItem {
+    background-color: blue;
+    text-align: center;
+}
+
+.sliderControles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+
+    margin: 0px auto;
+}
+
+.controleSvg {
+    width: 8px;
+    height: 15px;
+}
+.controleSvg:hover {
+    cursor: pointer;
+}
+.controleText {
+    color: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0px 40px;
 }
