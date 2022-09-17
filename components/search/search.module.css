@@ -94,7 +94,7 @@
     opacity: 0.9;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .searchContainer {
         padding: 0px;
 
@@ -125,35 +125,53 @@
 
     .parotImg {
         position: relative;
-        top: 0px;
-        right: -45%;
+        overflow: hidden;
     }
     .parot {
         padding-right: 0px;
         margin: 0px;
-        width: 100vw;
-        background-color: #febd2f;
 
-        overflow: hidden;
+        margin: 0 auto;
+        width: 70vw;
     }
     .card {
         top: 39%;
-        left: 6%;
+        left: 9%;
         width: 216px;
         height: 254.12px;
     }
 }
 
-@media (max-width: 800px) and (min-width: 450px) {
+@media (max-width: 800px) {
     .card {
         top: 54%;
         left: 20%;
         width: 216px;
         height: 254.12px;
     }
+    .parot {
+        width: 100vw;
+    }
     .parotImg {
         position: relative;
         top: 0px;
         right: 0;
+    }
+}
+@media (max-width: 500px) {
+    .card {
+        top: 40%;
+        left: 10%;
+        width: 216px;
+        height: 254.12px;
+    }
+    .parot {
+        overflow: hidden;
+    }
+    .parotImg {
+        position: relative;
+        top: 0px;
+        right: -45%;
+        overflow: hidden;
     }
 }

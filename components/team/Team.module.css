@@ -145,6 +145,7 @@
         right: 20%;
     }
     .lineOne {
+        max-width: 80vw;
     }
     .imgTwo {
         width: 56vw;
