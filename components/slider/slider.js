@@ -3,35 +3,35 @@ import React, { useState, useRef } from 'react'
 import Slider from 'react-slick'
 const ITEMS = [
     {
-        id: 2,
+        id: 1,
         title: 'Save watter',
         description:
             'Taking on the issue of ensuring access to safe water requires worldwide effort.',
         image: '/slider-img1.png',
     },
     {
-        id: 3,
+        id: 2,
         title: 'Plant trees',
         description:
             'Taking on the issue of ensuring access to safe water requires worldwide effort.',
         image: '/slider-img2.png',
     },
     {
-        id: 4,
+        id: 3,
         title: 'Save energy',
         description:
             'Taking on the issue of ensuring access to safe water requires worldwide effort.',
         image: '/slider-img5.png',
     },
     {
-        id: 0,
+        id: 4,
         title: 'Avoid plastic',
         description:
             'Taking on the issue of ensuring access to safe water requires worldwide effort.',
         image: '/slider-img6.png',
     },
     {
-        id: 1,
+        id: 5,
         title: 'Choose organic',
         description:
             'Taking on the issue of ensuring access to safe water requires worldwide effort.',
@@ -59,15 +59,37 @@ export default function SliderReact(props) {
             <div>
                 <Slider ref={sliderRef} {...settings} className={styles.slider}>
                     {ITEMS.map((item, index) => {
-                        return (
+                        return index == currentIndex ? (
                             <div
                                 key={item.title}
-                                className={
-                                    index == currentIndex
-                                        ? styles.sliderSelectedItem
-                                        : styles.sliderItem
-                                }
+                                className={styles.sliderSelectedItem}
                             >
+                                <div className={styles.selectedSliderDiv}>
+                                    {' '}
+                                    <img
+                                        src={item.image}
+                                        className={styles.selectedSliderImg}
+                                    />
+                                    <img
+                                        src="/bg.png"
+                                        className={styles.bgImg}
+                                    />
+                                    <div className={styles.selectedSliderText}>
+                                        <h1
+                                            className={
+                                                styles.selectedSliderTitle
+                                            }
+                                        >
+                                            {item.title}
+                                        </h1>
+                                        <p className={styles.sliderDescription}>
+                                            {item.description}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        ) : (
+                            <div key={item.title} className={styles.sliderItem}>
                                 <div className={styles.sliderDiv}>
                                     {' '}
                                     <img

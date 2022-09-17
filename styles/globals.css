@@ -16,3 +16,7 @@ a {
     padding: 0px;
     margin: 0px;
 }
+
+.slick-cloned {
+    display: flex;
+}
