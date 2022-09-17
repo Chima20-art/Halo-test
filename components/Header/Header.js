@@ -23,7 +23,7 @@ export default function Header() {
                 </div>
                 <button className={styles.applyButton}>Apply</button>
                 <div className={styles.menu} onClick={() => setOpenMenu(true)}>
-                    <Image src="/menu.svg" width={22} height={17} alt="menu" />
+                    <img src="/menu.svg" width={22} height={17} alt="menu" />
                 </div>
                 {openMenu && (
                     <div className={styles.modal}>
