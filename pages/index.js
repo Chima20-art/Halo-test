@@ -10,13 +10,27 @@ import SliderReact from '../components/slider/slider'
 import Footer from '../components/footer/footer'
 export default function Home() {
     return (
-        <div className={styles.container}>
-            <Search />
-            <Team />
-            <Login />
-            <Contact />
-            <SliderReact />
-            <Footer />
-        </div>
+        <>
+            <Head>
+                <title>Rootz</title>
+                <meta property="og:title" content="Rootz" />
+                <meta
+                    property="og:description"
+                    content="Rootz a Halo lab Task"
+                />
+                <meta
+                    property="og:image"
+                    content="https://halo-test.vercel.app/parrot.png"
+                />
+            </Head>
+            <div className={styles.container}>
+                <Search />
+                <Team />
+                <Login />
+                <Contact />
+                <SliderReact />
+                <Footer />
+            </div>
+        </>
     )
 }
