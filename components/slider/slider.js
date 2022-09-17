@@ -1,46 +1,46 @@
 import styles from './slider.module.css'
 import React, { useState, useRef } from 'react'
 import Slider from 'react-slick'
-
+const ITEMS = [
+    {
+        id: 2,
+        title: 'Save watter',
+        description:
+            'Taking on the issue of ensuring access to safe water requires worldwide effort.',
+        image: '/slider-img1.png',
+    },
+    {
+        id: 3,
+        title: 'Plant trees',
+        description:
+            'Taking on the issue of ensuring access to safe water requires worldwide effort.',
+        image: '/slider-img2.png',
+    },
+    {
+        id: 4,
+        title: 'Save energy',
+        description:
+            'Taking on the issue of ensuring access to safe water requires worldwide effort.',
+        image: '/slider-img5.png',
+    },
+    {
+        id: 0,
+        title: 'Avoid plastic',
+        description:
+            'Taking on the issue of ensuring access to safe water requires worldwide effort.',
+        image: '/slider-img6.png',
+    },
+    {
+        id: 1,
+        title: 'Choose organic',
+        description:
+            'Taking on the issue of ensuring access to safe water requires worldwide effort.',
+        image: '/slider-img3.png',
+    },
+]
 export default function SliderReact(props) {
     const [currentIndex, setCurrentIndex] = useState(0)
-    const ITEMS = [
-        {
-            id: 2,
-            title: 'Save watter',
-            description:
-                'Taking on the issue of ensuring access to safe water requires worldwide effort.',
-            image: '/img.png',
-        },
-        {
-            id: 3,
-            title: 'Plant trees',
-            description:
-                'Taking on the issue of ensuring access to safe water requires worldwide effort.',
-            image: '/img2.png',
-        },
-        {
-            id: 4,
-            title: 'Save energy',
-            description:
-                'Taking on the issue of ensuring access to safe water requires worldwide effort.',
-            image: '/img4.png',
-        },
-        {
-            id: 0,
-            title: 'Avoid plastic',
-            description:
-                'Taking on the issue of ensuring access to safe water requires worldwide effort.',
-            image: '/img5.png',
-        },
-        {
-            id: 1,
-            title: 'Choose organic',
-            description:
-                'Taking on the issue of ensuring access to safe water requires worldwide effort.',
-            image: '/img3.png',
-        },
-    ]
+
     const sliderRef = useRef(null)
 
     const settings = {
@@ -68,7 +68,16 @@ export default function SliderReact(props) {
                                         : styles.sliderItem
                                 }
                             >
-                                <h1>{item.title}</h1>
+                                <div className={styles.sliderDiv}>
+                                    {' '}
+                                    <img
+                                        src={item.image}
+                                        className={styles.sliderImg}
+                                    />
+                                    <h1 className={styles.sliderTitle}>
+                                        {item.title}
+                                    </h1>
+                                </div>
                             </div>
                         )
                     })}
