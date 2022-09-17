@@ -1,12 +1,13 @@
 .footerContainer {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     width: 100vw;
     height: 336px;
-    padding: 96px 160px;
+    padding: 96px 16px;
     display: flex;
     justify-content: space-between;
     color: #333333;
+    margin: 0px auto;
 }
 .bigTitle {
     margin-bottom: 32px;
