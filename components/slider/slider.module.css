@@ -22,8 +22,6 @@
 }
 
 .sliderDiv {
-    max-width: 220px;
-
     margin: auto;
     display: flex !important;
     flex-direction: column;
@@ -86,7 +84,6 @@
 }
 .sliderImg {
     object-fit: contain;
-
     width: 276px;
     height: 281px;
 }
@@ -132,4 +129,16 @@
     font-size: 24px;
     line-height: 32px;
     padding: 0px 40px;
+}
+
+@media (max-width: 600px) {
+    .bgImg {
+        max-width: 375px !important;
+        height: 330px !important;
+    }
+    .selectedSliderImg {
+        object-fit: contain;
+        width: 125px !important;
+        height: 110px !important;
+    }
 }

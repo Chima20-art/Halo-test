@@ -46,12 +46,21 @@ export default function SliderReact(props) {
     const settings = {
         className: 'slider variable-width',
         centerMode: true,
-        centerPadding: '100px',
+        centerPadding: 0,
         slidesToShow: 3,
         dots: false,
         beforeChange: (oldIndex, newIndex) => {
             setCurrentIndex(newIndex)
         },
+        responsive: [
+            {
+                breakpoint: 1100,
+                settings: {
+                    centerPadding: 0,
+                    slidesToShow: 1,
+                },
+            },
+        ],
     }
 
     return (
